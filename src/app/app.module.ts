@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { TransactionComponent } from './transaction/transaction.component';
 import { PurchaseComponent } from './purchase/purchase.component';
+import { PurchaseCourseComponent } from './purchase-course/purchase-course.component';
 
 
 
@@ -20,7 +21,8 @@ import { PurchaseComponent } from './purchase/purchase.component';
     SignupComponent,
     HomeComponent,
     TransactionComponent,
-    PurchaseComponent
+    PurchaseComponent,
+    PurchaseCourseComponent
     ],
   imports: [
     BrowserModule,

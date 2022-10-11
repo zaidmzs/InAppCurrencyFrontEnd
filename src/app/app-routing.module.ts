@@ -5,6 +5,7 @@ import { SignupComponent } from './components/signup/signup.component';
 import { HomeComponent } from './home/home.component';
 import { TransactionComponent } from './transaction/transaction.component';
 import { PurchaseComponent } from './purchase/purchase.component';
+import { PurchaseCourseComponent } from './purchase-course/purchase-course.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,9 @@ const routes: Routes = [
   },
   {
     path:'Purchase',component:PurchaseComponent
+  },
+  {
+    path:'PurchaseCourse',component:PurchaseCourseComponent
   },
   {
     path:'',
